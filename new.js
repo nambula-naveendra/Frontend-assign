@@ -1,22 +1,22 @@
 
 document.getElementById('#dropdown-item-1').addEventListener('click',function(){
-  var select = document.querySelector('.dropdown-item').textContent; 
+  var select = document.getElementById('.dropdown-item-1').textContent; 
  
   if(select === "Rupees")
   {
-    document.querySelector('.required').textContent= (67.461643)*document.querySelector('.required').textContent;
-    console.log("hello world");
+    document.getElementById('.required').textContent= (67.461643)*document.getElementById('.required').textContent;
+    
   }
 
 });
 
 document.getElementById('#dropdown-item-2').addEventListener('click',function(){
-  var select = document.querySelector('.dropdown-item').textContent;
+  var select = document.getElementById('.dropdown-item-2').textContent;
 
   if(select === "USD")
   {
     
-    document.querySelector('.required').textContent= (0.0142823238)*document.querySelector('.required').textContent;
+    document.getElementById('.required').textContent= (0.0142823238)*document.getElementById('.required').textContent;
     console.log("helo");
   }
   
